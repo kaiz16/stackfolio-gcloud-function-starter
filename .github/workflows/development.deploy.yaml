@@ -2,15 +2,10 @@ on:
   push:
     branches: [development]
 
-name: Stackfolio Gcloud Function Starter | Development - Cloud Functions CI/CD
+name: Stackfolio gcloud Function Starter | Development - Cloud Functions CI/CD
 env:
   SERVICE: stackfolio-gcloud-function-dev
   REGION: australia-southeast1 # Change this to your preferred region
-  PORT: 8080 # Cloud Run port
-  # The name of the Artifact Registry repository where the Docker image will be stored.
-  # Make sure to create this repository in Artifact Registry before running the workflow.
-  # Link: https://console.cloud.google.com/artifacts/create-repo
-  REPOSITORY: stackfolio
   GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
   GCP_SA_EMAIL: ${{ secrets.GCP_SA_EMAIL }}

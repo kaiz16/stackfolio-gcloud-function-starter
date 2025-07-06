@@ -41,8 +41,8 @@ A starter template for building google cloud functions using NodeJS. You can use
 
 Base URL:
 
-- **Development**: https://stackfolio-gcloud-function-dev-26461205929.australia-southeast1.run.app
-- **Production**: https://stackfolio-gcloud-function-prod-26461205929.australia-southeast1.run.app
+- **Development**: https://australia-southeast1-kaiz-324412.cloudfunctions.net/stackfolio-gcloud-function-dev
+- **Production**: https://australia-southeast1-kaiz-324412.cloudfunctions.net/stackfolio-gcloud-function-prod
 
 Health Check Route: `/health`
 
