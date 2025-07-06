@@ -1,0 +1,23 @@
+{
+  "name": "stackfolio-gcloud-function-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=index --port=5000",
+    "dev": "NODE_ENV=development functions-framework --target=index --port=5000",
+    "prod": "NODE_ENV=production functions-framework --target=index --port=5000"
+  },
+  "keywords": [],
+  "author": "kaiz16",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  }
+}
